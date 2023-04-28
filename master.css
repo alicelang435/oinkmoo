@@ -59,21 +59,21 @@ header {
 
 .menu,
 .menu ul {
-    display: flex;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+            display: flex;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
 }
 
 .menu ul li {
-    margin-right: 20px;
-    text-align: center;
+            margin-right: 20px;
+            text-align: center;
 }
 
 .menu ul li a {
-    color: #fff;
-    text-decoration: none;
+            color: #fff;
+            text-decoration: none;
 }
 
 
@@ -206,58 +206,59 @@ footer p {
 }
 
 .store-hours {
-    width: 200px; 
-    padding: 10px; 
-    float: right;
-    line-height: 0.2px;
+            width: 200px; 
+            padding: 10px; 
+            float: left;
+            line-height: 0.2px;
 }
+
 .store-hours h2 {
-    margin-top: 40px; 
+            margin-top: 40px; 
 }
 
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  /* Other desktop styles */
+            max-width: 1200px;
+            margin: 0 auto;
 }
 
-/* Mobile styles */
 @media only screen and (max-width: 767px) {
   .container {
-    max-width: 100%;
+            max-width: 100%;
 }
 
+
 img {
-  max-width: 100%;
-  height: auto;
+            max-width: 100%;
+            height: auto;
 }
 
 h1 {
-  font-size: 2.5rem;
+            font-size: 2.5rem;
 }
 
 p {
-  font-size: 1rem;
+            font-size: 1rem;
 }
+
 
 @media only screen and (max-width: 767px) {
     .main { padding:0px }
 
-  html {
-    font-size: 14px;
+html {
+            font-size: 14px;
   }
 
-  h1 {
-    font-size: 2rem;
+h1 {
+            font-size: 2rem;
   }
 
-  p {
-    font-size: 0.9rem;
+p {
+            font-size: 0.9rem;
   }
 }
 @media only screen and (max-width: 768px) {
   header h1 {
-    font-size: 18px; }
+            font-size: 18px; }
 }
 
 
